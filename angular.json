@@ -17,7 +17,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref" : "https://emreerkmen.github.io/my-app/",
             "outputPath": "dist/my-app",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -42,6 +41,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref" : "https://emreerkmen.github.io/my-app/",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
