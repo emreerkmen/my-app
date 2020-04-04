@@ -68,7 +68,7 @@ export class ResumeComponent implements OnInit {
     // })
     //this.changeLanguage();
   }
-  //deneme2
+  //deneme3
   titles: Title[];
   title: Title;
   companies: Company[];
