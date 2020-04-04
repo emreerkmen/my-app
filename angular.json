@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref" : "https://emreerkmen.github.io/my-app2/",
             "outputPath": "dist/my-app",
             "index": "src/index.html",
             "main": "src/main.ts",
